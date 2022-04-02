@@ -2,13 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from PIL import Image
-import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="XGBoost Classifier Machine Learning",
