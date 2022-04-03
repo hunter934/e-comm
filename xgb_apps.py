@@ -34,7 +34,7 @@ with st.sidebar:
         learning = st.slider('Learning Rate', 0.0, 1.0, 0.2)
         estimator = st.slider('N-Estimator', 100, 2000, 1000)
         depth = st.slider('Max Depth', 1, 10, 6)
-        child_weight = st.slider('Min Child Wright', 0.0, 1.0, 0.75)
+        child_weight = st.slider('Min Child Weight', 0.0, 1.0, 0.75)
 
 # Gambar
 img = Image.open("XGBoost_logo.png")
