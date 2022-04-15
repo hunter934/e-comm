@@ -9,7 +9,7 @@ from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 
 st.set_page_config(
-    page_title="XGBoost Classifier Machine Learning",
+    page_title="Customer Churn Prediction",
     page_icon=(Image.open("han.png")),
     layout="wide"
     )
