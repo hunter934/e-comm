@@ -41,7 +41,7 @@ img = Image.open("XGBoost_logo.png")
 st.image(img, width=200)
 
 # Judul
-st.title("XGBoost Classifier Machine Learning")
+st.title("Customer Churn Prediction")
 
 if (opsi == 'Pakai data E-Commerce Churn'):
     df = pd.read_excel('E Commerce Dataset.xlsx', 1)
